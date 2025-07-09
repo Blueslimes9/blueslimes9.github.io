@@ -1,0 +1,31 @@
+body {
+	background-color: #8ab4f8;
+	font-family: 'Brush Script MT', cursive;
+}
+nav {
+	float: left;
+	width: 10%;
+	padding: 5px;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+}
+article {
+	float: left;
+	padding: 20px;
+	width: 90%;
+}
+h2 {
+	padding: 5px;
+	text-align: left;
+	font-size: 25px;
+	margin-bottom: 0;
+	color: #ffffff;
+}
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
