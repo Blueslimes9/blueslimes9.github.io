@@ -1,6 +1,6 @@
 body {
 	background-color: #8ab4f8;
-	font-family: 'Comic Sans MS', cursive;
+	font-family: 'Comic Sans MS', serif;
 }
 nav {
 	float: left;
@@ -11,7 +11,15 @@ nav ul {
 	list-style-type: none;
 	padding: 0;
 	margin-top: 0;
+	text-shadow: 3px 3px 6px #444;
 }
+
+ul {
+	margin: 0;
+	list-style-type: none;
+}
+
+
 article {
 	float: left;
 	padding: 20px;
@@ -24,6 +32,7 @@ h2 {
 	margin-bottom: 0;
 	margin-top: 0;
 	color: #ffffff;
+	text-shadow: 3px 3px 6px #444;
 }
 footer {
 	color: white;
@@ -36,4 +45,38 @@ footer {
 p {
 	margin-bottom: 0;
 	margin-top: 0;
+	color:#ffffff;
+	margin-left:5px;
+	text-shadow: 3px 3px 6px #444;
+}
+a:link {
+	color: #d3d9e3;
+	text-decoration: none;
+}
+a:visited {
+	color: #d3d9e3;
+	text-decoration: none;
+}
+a:hover {
+	color:#fff;
+	text-decoration: underline;
+}
+
+.dropdown-container {
+	cursor: pointer;
+	margin-bottom: 0px;
+	color: white;
+	text-shadow: 3px 3px 6px #444;
+}
+
+.dropdown-content {
+	display: none;
+	margin-top: 0px;
+	border-radius: 0px;
+	color: white;
+	text-shadow: 3px 3px 6px #444;
+}
+
+.dropdown-content.show {
+	display: block;
 }
