@@ -17,6 +17,7 @@ nav ul {
 ul {
 	margin: 0;
 	list-style-type: none;
+	text-shadow: 3px 3px 6px #444;
 }
 
 
@@ -79,4 +80,10 @@ a:hover {
 
 .dropdown-content.show {
 	display: block;
+}
+
+img {
+	width: 15%;
+	height: auto;
+	box-shadow: 3px 3px 6px #444;
 }
