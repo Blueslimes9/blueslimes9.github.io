@@ -1,0 +1,59 @@
+body {
+  background-color: #8ab4f8;
+}
+
+@font-face {
+  font-family: bluewinter;
+  src: url("fonts/BlueWinter.ttf");
+}
+
+@font-face {
+  font-family: smashbrush;
+  src: url("fonts/Smash Brush.otf");
+}
+
+@font-face {
+  font-family: gardenstory;
+  src: url("fonts/Garden Story.otf");
+}
+
+@font-face {
+  font-family: selftudy;
+  src: url("fonts/Selftudy.otf");
+}
+
+h1 {
+  color: white;
+  text-align:center;
+  font-family: selftudy;
+  font-size: 3.5vh;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.3)
+}
+p {
+  color: #292929;
+  text-align:center;
+  font-family: selftudy;
+  font-size: 2.5vh;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  margin-top: 0.1vh;
+  margin-bottom: 0.1vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	max-width: 55vh;
+	min-width: 20vh;
+	margin: auto
+
+}
+
+.gif-container {
+  text-align: center;
+}
+
+.gif-shadow {
+	box-shadow: 4px 4px 2px rgba(0,0,0,0.3)
+}
