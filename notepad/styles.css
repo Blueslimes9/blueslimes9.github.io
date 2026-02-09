@@ -28,7 +28,8 @@ a {
 
 p {
 	margin: 0.3vh;
-	margin-left: 5vh
+	text-indent: 5vh;
+  border-bottom: 2px solid #396ec4;
 }
 
 div {
@@ -40,7 +41,7 @@ div {
 }
 
 .bline {
-	border-bottom: 2px solid #396ec4; 
+	 
 }
 .red-line {
     border-left: 2px solid #ff0000; 
